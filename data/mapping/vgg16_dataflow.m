@@ -4,14 +4,14 @@ Network vgg16 {
 		Dimensions { K 64,C 3,R 3,S 3,Y 224,X 224 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -20,14 +20,14 @@ Network vgg16 {
 		Dimensions { K 64,C 64,R 3,S 3,Y 224,X 224 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -36,14 +36,14 @@ Network vgg16 {
 		Dimensions { K 128,C 64,R 3,S 3,Y 112,X 112 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -52,14 +52,14 @@ Network vgg16 {
 		Dimensions { K 128,C 128,R 3,S 3,Y 112,X 112 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -68,14 +68,14 @@ Network vgg16 {
 		Dimensions { K 256,C 128,R 3,S 3,Y 56,X 56 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -84,14 +84,14 @@ Network vgg16 {
 		Dimensions { K 256,C 256,R 3,S 3,Y 56,X 56 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -100,14 +100,14 @@ Network vgg16 {
 		Dimensions { K 256,C 256,R 3,S 3,Y 56,X 56 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -116,14 +116,14 @@ Network vgg16 {
 		Dimensions { K 512,C 256,R 3,S 3,Y 28,X 28 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -132,14 +132,14 @@ Network vgg16 {
 		Dimensions { K 512,C 512,R 3,S 3,Y 28,X 28 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -148,14 +148,14 @@ Network vgg16 {
 		Dimensions { K 512,C 512,R 3,S 3,Y 28,X 28 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -164,14 +164,14 @@ Network vgg16 {
 		Dimensions { K 512,C 512,R 3,S 3,Y 14,X 14 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -180,14 +180,14 @@ Network vgg16 {
 		Dimensions { K 512,C 512,R 3,S 3,Y 14,X 14 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -196,14 +196,14 @@ Network vgg16 {
 		Dimensions { K 512,C 512,R 3,S 3,Y 14,X 14 }
 		Dataflow {
 			// Fill your dataflow here
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
+			SpatialMap(1,1) K;
+			TemporalMap(64,64) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
-			Cluster(?, P);
-			SpatialMap(?,?) ?;
+   			TemporalMap(1,1) X';
+			TemporalMap(1,1) Y';
+			Cluster(64, P);
+			SpatialMap(1,1) C;
 		}
 	}
 
@@ -211,11 +211,11 @@ Network vgg16 {
 		Type: GEMM
 		Dimensions { M 4096, N 1, K 25088 }
 		Dataflow {
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			Cluster(?, P);
-			SpatialMap(1,1) ?;
+			TemporalMap(1,1) N;
+			TemporalMap(64,64) K;
+			SpatialMap(1,1) M;
+			Cluster(64, P);
+			SpatialMap(1,1) K;
 		}
 	}
 
@@ -223,11 +223,11 @@ Network vgg16 {
 		Type: GEMM
 		Dimensions { M 4096, N 1, K 4096 }
 		Dataflow {
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			Cluster(?, P);
-			SpatialMap(1,1) ?;
+			TemporalMap(1,1) N;
+			TemporalMap(64,64) K;
+			SpatialMap(1,1) M;
+			Cluster(64, P);
+			SpatialMap(1,1) K;
 		}
 	}
 
@@ -235,11 +235,11 @@ Network vgg16 {
 		Type: GEMM
 		Dimensions { M 4096, N 1, K 4096 }
 		Dataflow {
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			?Map(?,?) ?;
-			Cluster(?, P);
-			SpatialMap(1,1) ?;
+			TemporalMap(1,1) N;
+			TemporalMap(64,64) K;
+			SpatialMap(1,1) M;
+			Cluster(64, P);
+			SpatialMap(1,1) K;
 		}
 	}
 }
