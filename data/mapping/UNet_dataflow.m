@@ -5,12 +5,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -21,12 +21,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -37,12 +37,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -53,12 +53,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -69,12 +69,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -86,12 +86,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -102,12 +102,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -119,12 +119,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -135,12 +135,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -152,12 +152,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -168,12 +168,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -185,12 +185,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -201,12 +201,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -217,12 +217,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -233,12 +233,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -250,12 +250,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -266,12 +266,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -283,12 +283,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -299,12 +299,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -315,12 +315,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -331,12 +331,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -348,12 +348,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
@@ -364,12 +364,12 @@ Network UNet {
 		Dataflow {
 			// Fill your dataflow here
 			SpatialMap(1,1) K;
-			TemporalMap(64,64) C;
+			TemporalMap(256,256) C;
 			TemporalMap(Sz(R),Sz(R)) R;
 			TemporalMap(Sz(S),Sz(S)) S;
    			TemporalMap(1,1) X';
 			TemporalMap(1,1) Y';
-			Cluster(64, P);
+			Cluster(256, P);
 			SpatialMap(1,1) C;
 		}
 	}
