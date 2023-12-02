@@ -5,10 +5,10 @@ Network UNet {
 		Dataflow {
 			SpatialMap(1,1) K;
 			TemporalMap(64,64) C;
-			TemporalMap(7,7) R;
-			TemporalMap(7,7) S;
-			TemporalMap(7,1) Y;
-			TemporalMap(7,1) X;	
+			TemporalMap(3,3) R;
+			TemporalMap(3,3) S;
+			TemporalMap(3,1) Y;
+			TemporalMap(3,1) X;	
 			Cluster(64, P);
 			SpatialMap(1,1) C;
 		}
